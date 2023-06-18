@@ -35,7 +35,7 @@ shadowJar {
     exclude "fabric.mod.json"
 
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier.set("")
+    archiveClassifier.set("-forge")
 }
 
 remapJar {

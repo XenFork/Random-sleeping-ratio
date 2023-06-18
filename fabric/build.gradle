@@ -35,7 +35,7 @@ processResources {
 
 shadowJar {
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier.set("")
+    archiveClassifier.set("-fabric")
 }
 
 remapJar {
