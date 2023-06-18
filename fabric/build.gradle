@@ -35,7 +35,7 @@ processResources {
 
 shadowJar {
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier.set("dev-shadow")
+    archiveClassifier.set("")
 }
 
 remapJar {
